@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background:linear-gradient(80deg,red,orange,yellow,green,blue,indigo, violet);
+    
+}
+h1{
+background:linear-gradient(purple,skyblue);
+-webkit-background-clip: text;
+color:transparent;
+}
+div{
+    width: 100px;
+    height: 100px;
+    border:2p solid yellow;
+    background: red;
+    margin: 10px;
+}
+#color2{
+    text-align: center;
+    background:lavender;
+    color:purple;
+    border: 2px dashed indigo;
+}
+.color3{
+    text-align: center;
+    background:#FF6000;
+    color:#607F8F;
+    border: 6px double #FF5005;
+}
+#color4{
+    text-align: right;
+    background:#F0F;
+    color:#0FF;
+    border: 2px dashed #0F0;
+}
+#color5{
+    text-align: left;
+    background: rgb(10, 50, 30);
+    color:rgb(10,10,10);
+    border: 8px dashed rgb(50, 30, 10);
+    
+}
+#color6{
+    text-align: left;
+    background: rgb(10%, 50%, 50%);
+    color:rgb(10%,10%,10%);
+    border: 2px double rgb(10%, 50%, 100%);
+}
+#color7{
+    
+    background: linear-gradient(pink, yellow );
+    
+}
+#color8{
+    background:rgba(10,20,30,0.5);
+}
+#color9{
+    background: linear-gradient(to right, skyblue, lavender )
+    
+} #color10{
+    background:linear-gradient(100deg,red,orange,yellow,green,blue,indigo, violet);
+}
