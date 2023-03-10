@@ -8,3 +8,16 @@ body{
 h1{
     color:#FFF;
 }
+a{
+    width: 200px;
+    height: 50px;
+    padding: 20px;
+    margin:10px auto;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    background:black ;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px red;
+}
