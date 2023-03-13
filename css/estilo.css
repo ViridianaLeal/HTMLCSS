@@ -4,8 +4,8 @@
 }
 body{
     text-align: center;
-    background: rgb(154,235,227);
-background: linear-gradient(270deg, rgba(154,235,227,1) 21%, rgba(28,191,224,1) 47%, rgba(71,199,191,1) 93%, rgba(16,146,152,1) 100%);
+    background: rgb(2,0,36);
+background: linear-gradient(281deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 #imagen{
     width: 200px;

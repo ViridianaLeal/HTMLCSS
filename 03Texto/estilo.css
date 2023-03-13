@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    
+    
+}
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto"),
+    url("fonts/Roboto-Regular.ttf") format("truetype");
+}
+.roboto{
+    font-family: 'Roboto';
+
+}
+.fuente2{
+    font-family: 'Rubik Iso';
+
+}
+.fuente3{
+    font-family: 'Roboto Mono';
+
+}
+.fuente4{
+    font-family: 'Smokum', cursive;
+
+}
+.fuente5{
+    font-family: 'Tilt Prism', cursive;
+
+}
+.izq{
+    text-align:left ;
+
+}
+.der{
+    text-align:right ;
+
+}
+.cen{
+    text-align:center ;
+
+}
+.jus{
+    text-align: justify;
+
+}
+.inter1{
+    line-height:4.2; font-size: 1em ;
+
+}
+.inter2{
+    line-height:2.2; font-size: 1em;
+
+}
+.libre:hover{
+    font-family: 'Roboto';
+    font-size: 72px;
+    
+    background: linear-gradient(to bottom right,blue,green);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: 5s all ease;
+    transform: scale(1.1);
+    transform: rotate(3deg);
+}
