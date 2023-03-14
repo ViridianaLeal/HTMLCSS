@@ -1,0 +1,52 @@
+*{
+    margin: 10px ;
+    padding: 0px ;
+  }
+  body{
+    font-size: 20px;
+  }
+  div{
+    width: 200px;
+    height: 200px;
+    background:yellow ;
+    display: block;
+    margin: 10px ;
+    border :2px sólido yellow;
+  }
+  #caja1{
+    width: 2in;
+    height:2in;
+  
+  }
+  #caja2{
+    width: 3cm;
+    height:3cm; 
+  }
+  #caja3{
+    width: 40mm;
+    height:45mm;
+  }
+  #caja4{
+    width: 25pt;
+    height:35pt;
+  }
+  #caja5{
+    width: 10pc ;
+    height:10pc;
+  }
+  #caja6{
+    width: 2.5em;
+    height:2.5em;
+  }
+  #caja7{
+    width: 2ex;
+    height:2ex;
+  }
+  #caja8{
+    width: 150px;
+    height:150px;
+  }
+  #caja9{
+    width: 20%;
+    height:20%;
+  }

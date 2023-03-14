@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: black;
+    font-family: 'Roboto';
+}
+h1{
+    color: white;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background: white;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50;
+    margin: 10px;
+    display: inline-block;
+    border: 2px solid lavender;
+    text-align: center;
+}
+#caja9{
+    margin: 10px 100px 20px 20px;
+    
+    background: rgb(117, 131, 214);
+    border: 10px ridge lavender;
+}
+#caja1{
+    box-shadow: 0px 0px 50px black;
+    border-radius: 140px 50% 50% 50%;
+}
+#caja6{
+    width: 100px;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 20px;
+    background: plum;
+    border: 10px dotted cornsilk;
+
+}
+#caja20{
+    width: 250px;
+    height: 500px;
+    border-radius: 30% 0% 30% 0%;
+    
+    background: darkseagreen;
+    border: 10px double darkolivegreen;
+}
+#caja15{
+    width: 400px;
+    height: 200px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    box-shadow: 0px 0px 100px darkblue;
+    background: thistle;
+    border-radius: 50% 50% 50% 50%;
+}
+#caja12{
+    width: 500px;
+    height: 250px;
+    background: pink;
+    border: 10px inset crimson;
+    color: white;
+    border-radius: 50% 50% 0% 0%;
+}
+#caja3{
+    width: 20px;
+    height: 20px;
+    box-shadow: 20px 20px 500px black;
+    background: yellow;
+    padding: 100px 100px 100px 100px;
+
+}
