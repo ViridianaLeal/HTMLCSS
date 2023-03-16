@@ -9,11 +9,66 @@
   background:radial-gradient(LightSalmon ,gold,yellow);
     border-radius:50%;
     position:absolute;
-    top:100px;
-    left:15%;
+    top:150px;
+    left:14%;
     box-shadow:0px 0px 300px Khaki; 
     
   
+    
+  }
+  .linea1{
+    width:100px;
+    height: 0px;
+    background:yellow;
+    position:absolute ;
+    top:300px ;
+    left:410px;
+    transform: rotate(30deg);
+  }
+  .linea5{
+    width:100px;
+    height: 0px;
+    background:yellow;
+    position:absolute ;
+    top:150px ;
+    left:410px;
+    transform: rotate(-30deg);
+  }
+  .linea2{
+    width:100px;
+    height: 0px;
+    background:yellow;
+    position:absolute ;
+    top:170px ;
+    left:70px;
+    transform: rotate(30deg);
+  }
+  .linea6{
+    width:100px;
+    height: 0px;
+    background:yellow;
+    position:absolute ;
+    top:300px ;
+    left:70px;
+    transform: rotate(-30deg);
+  }
+  .linea3{
+    width:0px;
+    height: 90px;
+    background:yellow;
+    position:absolute ;
+    top:50px ;
+    left:280px;
+    transform: rotate(0deg);
+  }
+  .linea4{
+    width:0px;
+    height: 100px;
+    background:yellow;
+    position:absolute ;
+    top:370px ;
+    left:280px;
+    transform: rotate(0deg);
   }
   .casa{
     width :1000px ;
@@ -21,7 +76,7 @@
     background :skyblue ;
     position: static;
     color: red;
-    border:2px solid black;
+    
     display: inline-block;
     text-align :center ;
     margin :10px ;
@@ -35,7 +90,7 @@
     position: absolute;
     top:850px;
     left: 150px;
-    border:2px solid black;
+    
     display: inline-block;
     text-align :center ;
   }
@@ -46,7 +101,7 @@
     position: absolute;
     top:550px;
     right: 750px;
-    border:2px solid black;
+    
     display: inline-block;
   }
   .puerta{
@@ -56,7 +111,7 @@
     position: absolute;
     top:90px;
     left: 20px;
-    border:2px solid black;
+    
     display: inline-block;
   }
   .cerrojo{
@@ -68,7 +123,7 @@
     border-radius: 60% 60% 60% 60%;
     background : black ;
     color: red;
-    border:2px solid black;
+    
     display: inline-block;
   }
   .ventana{
@@ -78,7 +133,7 @@
     position: absolute;
     top:90px;
     left: 200px;
-    border:2px solid black;
+    
     display: inline-block;
     box-shadow:0px 0px 1000px Khaki; 
   }
@@ -109,7 +164,7 @@
     position: absolute;
     top:500px;
     left: 150px;
-    border:2px solid black;
+    
     display: inline-block;
   }
   .chimenea1{
@@ -119,7 +174,7 @@
     position: absolute;
     top:400px;
     left: 500px;
-    border:2px solid black;
+    
     display: inline-block;
   }
   .chimenea2{
@@ -129,7 +184,7 @@
     position: absolute;
     top:400px;
     left: 490px;
-    border:2px solid black;
+    
     display: inline-block;
   }
   .tronco{
@@ -139,11 +194,11 @@
     position: absolute;
     top:650px;
     left: 750px;
-    border:2px solid black;
+    
     display: inline-block;
   }
   .hoja1{
-     width :200px ;
+    width :200px ;
     height :400px ;
     position: absolute ;
     top:300px;
@@ -151,7 +206,6 @@
     border-radius: 60% 60% 60% 60%;
     background : green;
     color: red;
-    border:2px solid black;
     display: inline-block;
     text-align :center ;
     margin :10px ;
