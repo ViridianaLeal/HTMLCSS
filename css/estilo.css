@@ -24,10 +24,13 @@ h1{
     margin: 20px;
 }
 h2{
-    color: purple;
+   
     font-size: 20px;
-    text-shadow: 2px 2px 2px white;
-    
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);   
+    background:linear-gradient(rgb(64, 91, 209),rgb(13, 72, 95));
+    -webkit-background-clip:text;
+    color:transparent;
+        
     margin: 10px;
 }
 a{
@@ -41,11 +44,11 @@ a{
     background:black ;
     color: white;
     border: 2px solid white;
-    box-shadow: 0px 0px 10px red;
+    box-shadow: 0px 0px 10px purple;
 }
 a:hover{
-    background: red;
-    color: yellow ;
+    background: rgb(209, 75, 187);
+    color: rgb(170, 180, 32) ;
     transform: scale(1.2);
     transition: 2s all ease;
 

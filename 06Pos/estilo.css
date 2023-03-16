@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px ;
+    box-sizing: border-box;
+  }
+  div{
+    width :100px;
+    height: 100px ;
+    background :red ;
+    color: red;
+    border:2px dashed black;
+    display: inline-block;
+    text-align :center ;
+    margin :10px ;
+    padding:10px ;
+    font-size: 40px;
+  }
+  
+  .pos2{
+    position: absolute;
+    right: 0px ;
+    top:0px ;
+    background :green;
+  }
+  .pos1{
+    position: absolute;
+    top: 0px ;
+    left:0px ;
+    background :green;
+  }
+  .pos3{
+    position: absolute;
+    left: 0px ;
+    bottom:0px ;
+    background :green;
+  }
+  .pos4{
+    position: absolute;
+    bottom: 0px ;
+    right:0px ;
+    background :green;
+  }
+  .pos5{
+    position: relative;
+    top: 50px;
+    right: 50px ;
+    background :yellow;
+    
+  }
+  .pos10{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background :pink;
+  }
+  .pos8{
+    position: fixed;
+    top:52%;
+    left:52%;
+    background:rgb(0,0,255,0.5);
+    z-index:3;
+  }

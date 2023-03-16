@@ -78,3 +78,34 @@ div{
     padding: 100px 100px 100px 100px;
 
 }
+#caja7{
+    width: 500px;
+    height: 20px;
+    box-shadow: 20px 20px 500px black;
+    background:linear-gradient(rgb(14, 94, 126),rgb(3, 28, 59)) ;
+    padding: 100px 100px 100px 100px;
+    border: 10px ridge lightblue;
+    border-radius: 50% 0% 50% 20%;
+
+
+}
+#caja14{
+    width: 70px;
+    height: 150px;
+    background:linear-gradient(rgb(113, 149, 163),rgb(86, 108, 136)) ;
+    border: 10px inset gold,palegreen;
+    color: black;
+    border-radius: 50% 50% 50% 50%;
+    position: relative;
+    top:500;
+    left: 100px;
+}
+#caja17{
+    width: 1000px;
+    height: 250px;
+    background: linear-gradient(red,darkred);
+    border: 10px groove crimson;
+    color: black;
+    border-radius: 0% 0% 0% 0%;
+    box-shadow: 20px 20px 500px black;
+}

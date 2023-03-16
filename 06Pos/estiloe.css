@@ -1,0 +1,98 @@
+*{
+    margin :0px ;
+    padding :0px ;
+    box-sizing: border-box;
+  }
+  
+  .emoji{
+    width :1000px ;
+    height :1000px ;
+    background :skyblue ;
+    position: static;
+    color: red;
+    border:2px solid black;
+    display: inline-block;
+    text-align :center ;
+    margin :10px ;
+    padding:10px ;
+    font-size: 40px;
+  }
+  
+  .cara{
+    width :800px ;
+    height :890px ;
+    position: static;
+    border-radius: 60% 60% 60% 60%;
+    background : wheat;
+    color: red;
+    border:2px solid black;
+    display: inline-block;
+    text-align :center ;
+    margin :10px ;
+    padding:10px ;
+    font-size: 40px;
+  }
+  .ojoder{
+    width :70px ;
+    height :70px ;
+    position: absolute;
+    top: 300px ;
+    left: 300px;
+    border-radius: 60% 60% 60% 60%;
+    background : black ;
+    color: red;
+    border:2px solid black;
+    display: inline-block;
+    text-align :center ;
+    margin :10px ;
+    padding:10px ;
+    font-size: 40px;
+  }
+  .ojoiz{
+    width :70px ;
+    height :70px ;
+    position: absolute;
+    top: 300px ;
+    right: 300px;
+    border-radius: 60% 60% 60% 60%;
+    background : black ;
+    color: red;
+    border:2px solid black;
+    display: inline-block;
+    text-align :center ;
+    margin :10px ;
+    padding:10px ;
+    font-size: 40px;
+  }
+  .nariz{
+    width :50px ;
+    height :50px ;
+    position: relative;
+    top: -400px ;
+    left: -400px;
+    border-radius: 60% 60% 0% 0%;
+    background : darksalmon ;
+    color: red;
+    border:2px solid black;
+    display: inline-block;
+    text-align :center ;
+    margin :10px ;
+    padding:10px ;
+    font-size: 40px;
+  }
+  .boca{
+    width :300px ;
+    height :00px ;
+    position: absolute;
+    top: 700px ;
+    left: 350px;
+    border-radius:0% 0% 90% 90%;
+    background : maroon ;
+    color: red;
+    border:2px solid black;
+    display: inline-block;
+    text-align :center ;
+    margin :10px ;
+    padding:10px ;
+    font-size: 40px;
+  }
