@@ -64,17 +64,18 @@ body{
 }
 
 .main3{
-    width: 600px;
-    height: 600px;
+    width: 700px;
+    height: 380px;
+    font-family: 'Roboto', sans-serif;
     display: block;
-    background: rgb(155, 215, 219);
-    margin: 20px auto;
-    border: 2px outset rgb(160, 221, 206);
+    background:skyblue;
+    margin: 100px auto;
+    border: 20px solid skyblue;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
+    color: aliceblue;
     grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: 45px 15px 200px 50px;
 }
 .tem1{
     grid-column: 1/4;
@@ -92,7 +93,7 @@ body{
     background: rgb(167, 22, 22);
 }
 .tem4{
-    grid-column: 3/4;
+    grid-column: 2/4;
     grid-row: 3;
     background: rgb(46, 35, 148);
 }
