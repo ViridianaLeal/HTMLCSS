@@ -17,6 +17,65 @@ body {
     background:white;
     margin:50px auto ;
     border: 2px dashed yellow;
+    display: flex;
+    flex-direction: row;
+}
+.ejemplo2{
+    width: 500px;
+    height: 500px;
+    background:white;
+    margin:50px auto ;
+    border: 2px dashed yellow;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.ejemplo3{
+    width: 500px;
+    height: 500px;
+    background:white;
+    margin:50px auto ;
+    border: 2px dashed yellow;
+    display: flex;
+    flex-direction: column;
+}
+.ejemplo4{
+    width: 500px;
+    height: 500px;
+    background:white;
+    margin:50px auto ;
+    border: 2px dashed yellow;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.ejemplo5{
+    width: 500px;
+    height: 500px;
+    background:white;
+    margin:50px auto ;
+    border: 2px dashed yellow;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+}
+.ejemplo6{
+    width: 500px;
+    height: 500px;
+    background:white;
+    margin:50px auto ;
+    border: 2px dashed yellow;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+.ejemplo7{
+    width: 500px;
+    height: 500px;
+    background:white;
+    margin:50px auto ;
+    border: 2px dashed yellow;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
 }
 .caja{
     width: 100px;
