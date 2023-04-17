@@ -11,75 +11,101 @@ body {
     background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 33%);
 
 }
-.ejemplo1{
+
+.contenedor {
     width: 500px;
     height: 500px;
-    background:white;
-    margin:50px auto ;
-    border: 2px dashed yellow;
+    background: white;
+    margin: 50px auto;
+    border: 1px solid rgb(31, 31, 29);
+    display: flex;
+}
+
+.ejemplo1 {
+
     display: flex;
     flex-direction: row;
 }
-.ejemplo2{
-    width: 500px;
-    height: 500px;
-    background:white;
-    margin:50px auto ;
-    border: 2px dashed yellow;
+
+.ejemplo2 {
     display: flex;
     flex-direction: row-reverse;
 }
-.ejemplo3{
-    width: 500px;
-    height: 500px;
-    background:white;
-    margin:50px auto ;
-    border: 2px dashed yellow;
+
+.ejemplo3 {
     display: flex;
     flex-direction: column;
 }
-.ejemplo4{
-    width: 500px;
-    height: 500px;
-    background:white;
-    margin:50px auto ;
-    border: 2px dashed yellow;
+
+.ejemplo4 {
     display: flex;
     flex-direction: column-reverse;
 }
-.ejemplo5{
-    width: 500px;
-    height: 500px;
-    background:white;
-    margin:50px auto ;
-    border: 2px dashed yellow;
+
+.ejemplo5 {
     display: flex;
     flex-direction: column-reverse;
     flex-wrap: nowrap;
 }
-.ejemplo6{
-    width: 500px;
-    height: 500px;
-    background:white;
-    margin:50px auto ;
-    border: 2px dashed yellow;
+
+.ejemplo6 {
     display: flex;
     flex-direction: column-reverse;
     flex-wrap: wrap;
 }
-.ejemplo7{
-    width: 500px;
-    height: 500px;
-    background:white;
-    margin:50px auto ;
-    border: 2px dashed yellow;
+
+.ejemplo7 {
     display: flex;
     flex-direction: column-reverse;
     flex-wrap: wrap-reverse;
 }
-.caja{
+
+.ejemplo8 {
+    display: flex;
+    flex-flow: column wrap-reverse;
+}
+.ejemplo9{
+    justify-content:flex-start;
+}
+.ejemplo10{
+    justify-content: flex-end;
+}
+.ejemplo11{
+    justify-content: center;
+}
+.ejemplo12{
+    justify-content: space-between;
+}
+.ejemplo13{
+    justify-content: space-around;
+}
+.ejemplo14{
+    justify-content: space-evenly;
+}
+.ejemplo15{
+    align-items:flex-start ;
+}
+.ejemplo16{
+    align-items:flex-end ;
+}
+.ejemplo17{
+    align-items:center ;
+}
+.ejemplo18{
+    align-items: stretch;
+}
+.ejemplo19{
+    align-items: baseline;
+}
+.divA{
+    justify-content:center ;
+    align-items: center;
+
+}
+
+.caja {
     width: 100px;
     height: 100px;
-    background:rgb(187, 90, 90);
-    margin:10px;
+    background: rgb(185, 160, 160);
+    margin: 10px;
 }
