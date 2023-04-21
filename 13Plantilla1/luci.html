@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicios</title>
+    </head>
+    <body>
+        <script>
+            function contador(){
+                for(var i=1; i<11; i++){
+                    document.write("Numero:"+ i+"<br>");
+                }
+            }
+            function multiplicacion7(){
+                for(var i=0; i<11;i++){
+                    var mult=7*i;
+                    document.write("7x "+i+"="+mult+"<br>");
+                }
+            }
+            function contador100(){
+                for(var i=1; i<101; i++){
+                    document.write("Numero:"+i+"<br>");
+                }
+            }
+            function multi(){
+                for(var i=1; i<11;i++){
+                    document.write("<hr>Tabla del:"+i+"<br>");
+                    for(var o=0; o<11; o++){
+                        var multi=i*o;
+                        document.write(i+"x"+o+"="+multi+"<br>");
+                    }
+                }
+
+            }
+            function multp(){
+                var o =parseInt(prompt("Ingresa la tabla que deseas visualizar"));
+                document.write("<hr>Tabla del:"+i+"<br>");
+                for(var i=0; i<11; i++){
+                    var multp=i*o;
+                    document.write(i+"x"+o+"="+multp+"<br>");
+                }
+            }
+        
+        </script>
+        <button onclick="contador()"> contar 1 al 10</button>
+        <br>
+        <hr>
+        <button onclick="multiplicacion7()">tabla del 7</button>
+        <br>
+        <hr>
+        <button onclick="contador100()">contador</button>
+        <br>
+        <hr>
+        <button onclick="multi()">multipicacion</button>
+        <br>
+        <hr>
+        <button onclick="multp()">multi</button>
+        <br>
+    </body>
+    
